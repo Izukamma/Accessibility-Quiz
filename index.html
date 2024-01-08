@@ -23,7 +23,7 @@
     </header>
     <main>
       <form
-        method="post"
+        method="post "
         action="https://freecodecamp.org/practice-project/accessibility-quiz"
       >
         <section role="region" aria-labelledby="student-info">
@@ -33,7 +33,7 @@
             <input type="text" name="student-name" id="student-name" />
           </div>
           <div class="info">
-            <label foe="student-email">Email:</label>
+            <label for="student-email">Email:</label>
             <input type="email" name="student-email" id="student-email" />
           </div>
           <div class="info">
@@ -119,7 +119,16 @@
             </div>
           </div>
         </section>
+        <button type="submit">Send</button>
       </form>
     </main>
+    <footer>
+      <address>
+        <a href="https://freecodecamp.org"> freeCodeCamp</a><br />
+        San Francisco<br />
+        California<br />
+        USA
+      </address>
+    </footer>
   </body>
 </html>
